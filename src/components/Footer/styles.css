@@ -22,7 +22,7 @@
 }
 
 .logo {
-  width: 80px; /* Adjust the size as needed */
+  width: 120px; /* Adjust the size as needed */
   height: auto;
   border-radius: 50%;
 }
@@ -47,9 +47,11 @@
 
 .quick-links a,
 .contact a,
-.contact p {
+.contact p,
+.copyright {
   color: #fff;
   text-decoration: none;
+  font-family: "Shadow Into Light", sans-serif;
 }
 
 .quick-links a:hover,
@@ -67,7 +69,8 @@
   margin-right: 10px;
 }
 
-.social-icons a:hover {
+.social-icons a:hover,
+.copyright p:hover {
   color: #f06420;
 }
 
